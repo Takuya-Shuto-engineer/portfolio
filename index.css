@@ -1,0 +1,71 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    color: white;
+}
+
+.container {
+    width: 95%;
+    margin: 0px auto;
+}
+
+.name {
+    line-height: 65px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right li {
+    float: right;
+    line-height: 65px;
+    padding: 10px 20px;
+}
+
+.btn {
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.fa-twitter {
+    color: #3b5998;
+}
+
+.fa-facebook {
+    color: #55acee;
+}
+
+.fa-linkedin-in {
+    color: #0e76a8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+
